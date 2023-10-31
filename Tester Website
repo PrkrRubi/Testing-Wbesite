@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Plumbing Services</title>
+    <style>
+        /* Add your custom CSS here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Plumbing Services</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Your Plumbing Services. We are a dedicated team of experienced plumbers providing reliable and efficient plumbing solutions for residential and commercial properties.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Leak Detection and Repair</li>
+            <li>Drain Cleaning</li>
+            <li>Water Heater Installation and Repair</li>
+            <li>Pipe Installation and Repair</li>
+            <li>Plumbing Fixture Installation</li>
+            <li>Emergency Plumbing Services</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: 1234 Main Street, City, State, 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@yourplumbingservices.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Plumbing Services</p>
+    </footer>
+</body>
+</html>
